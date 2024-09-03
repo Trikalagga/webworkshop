@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,7 +9,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PS2KRNXH');</script>
     <!-- End Google Tag Manager -->
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,6 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Nunito&family=Palanquin+Dark:wght@500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>MDS Demo</title>
-    
     <script>
     dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.
     dataLayer.push({
@@ -56,81 +56,187 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS2KRNXH"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->    
+    <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Video Section -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kc1zfEL3qq4?si=jN05ZBr9hCokTMAN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <!-- Navigation Section -->
     <nav id="nav">
-        <!-- Navigation content -->
-        <!-- Content omitted for brevity -->
+        <div class="navTop">
+            <div class="navItem">
+                <h2>MDS Demo EcommerceStore</h2>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
     </nav>
 
-    <!-- Slider Section -->
     <div class="slider">
-        <!-- Slider content -->
-        <!-- Content omitted for brevity -->
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="air.png" alt="AIR FORCE" class="sliderImg" id="firsts">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs.1999</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="jordan.png" alt="AIR JORDAN" class="sliderImg" id="jordan">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 1149</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="blazer.png" alt="BLAZER" class="sliderImg" id="thirds">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 2100</h2>
+                <a href="hippie.png" download="GFG">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="crater.png" alt="CRATER" class="sliderImg" id="crater">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 2999</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="hippie.png" alt="HIPPIE" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 999</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
     </div>
 
-    <!-- Features Section -->
     <div class="features">
-        <!-- Features content -->
-        <!-- Content omitted for brevity -->
+        <div class="feature">
+            <img src="shipping.png" alt="FREE SHIPPING" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="return.png" alt="30 DAYS RETURN">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="gift.png" alt="GIFT CARDS">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="contact.png" alt="CONTACT US">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
     </div>
 
-    <!-- Product Section -->
     <div class="product" id="product">
-        <!-- Product content -->
-        <!-- Content omitted for brevity -->
+        <img src="air.png" alt="AIR FORCE" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">Rs 1999</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+
+        <!-- Payment Form Section -->
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" class="payInput">
+            <label>Email</label>
+            <input type="text" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" class="payInput">
+            <label>Address</label>
+            <input type="text" class="payInput">
+            <div class="payBtnContainer">
+                <button class="payButton">Proceed to Payment</button>
+            </div>
+        </div>
     </div>
 
-    <!-- New Policy Documents Section -->
-    <div class="policy-documents">
-        <h2>Policy Documents</h2>
-        <ul>
-            <li><a href="privacy-policy.pdf" download>Privacy Policy</a></li>
-            <li><a href="terms-of-service.pdf" download>Terms of Service</a></li>
-            <li><a href="return-policy.pdf" download>Return Policy</a></li>
-        </ul>
+    <div class="productList">
+        <h1 class="productTitle">Our Products</h1>
+        <div class="productCard">
+            <div class="productCardLeft">
+                <img src="crater.png" alt="CRATER" class="productCardImg">
+                <h2 class="productCardTitle">CRATER</h2>
+                <h3 class="productCardPrice">Rs 2999</h3>
+                <p class="productCardDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="cardButton">BUY NOW!</button>
+            </div>
+            <div class="productCardRight">
+                <img src="hippie.png" alt="HIPPIE" class="productCardImg">
+                <h2 class="productCardTitle">HIPPIE</h2>
+                <h3 class="productCardPrice">Rs 999</h3>
+                <p class="productCardDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="cardButton">BUY NOW!</button>
+            </div>
+        </div>
     </div>
 
-    <!-- New Contact Form Section -->
-    <div class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+    <!-- Embedded Policy Documents Section -->
+    <h2>Policy Documents</h2>
+    <iframe src="policy_document.pdf" width="600" height="500"></iframe>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
-
-            <button type="submit">Submit</button>
-        </form>
+    <div class="newsletter">
+        <h1 class="newsTitle">Get Weekly Updates</h1>
+        <p class="newsDesc">Get the latest fashion trends and offers straight to your inbox. Sign up for our
+            newsletter:</p>
+        <div class="inputContainer">
+            <input type="text" placeholder="Your email" class="newsInput">
+            <button class="newsButton">Subscribe</button>
+        </div>
     </div>
 
-    <!-- Gallery Section -->
-    <div class="gallery">
-        <!-- Gallery content -->
-        <!-- Content omitted for brevity -->
-    </div>
-
-    <!-- New Season Section -->
-    <div class="newSeason">
-        <!-- New Season content -->
-        <!-- Content omitted for brevity -->
-    </div>
-
-    <!-- Footer Section -->
     <footer>
-        <!-- Footer content -->
-        <!-- Content omitted for brevity -->
+        <div class="footerLeft">
+            <h3 class="footerTitle">About Us</h3>
+            <p class="footerDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, fugiat.</p>
+        </div>
+        <div class="footerRight">
+            <img src="payment.png" alt="Payment Methods" class="paymentImg">
+        </div>
     </footer>
-
-    <script src="./app.js"></script>
 </body>
 
 </html>
